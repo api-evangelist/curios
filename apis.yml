@@ -1,23 +1,107 @@
 aid: curios
+
 name: Curios
-description: 'Curios is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Curios builds Web3, blockchain and AI technologies, offering a digital content marketplace for creators such as musicians, authors,
+  comedians, and developers. The platform enables creators to sell directly to fans, retain 100% of revenue, and access audience data, while providing
+  APIs for commerce, analytics, and integration. Curios also offers a mobile app and supports NFT and tokenized content, positioning itself as
+  a creator‑first commerce solution.
+
 url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-12 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-12'
+
 modified: '2026-10-12'
+
 tags:
 - Company
-apis: []
+- Marketplace
+- Web3
+- API
+- Creator
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/curios-plans-pricing.yml
+- type: Spectral
+  url: rules/curios-rules.yml
+- type: JSONLD
+  url: json-ld/curios-context.jsonld
+- type: Vocabulary
+  url: vocabulary/curios-vocabulary.yml
+- type: DataModel
+  url: data-model/curios-data-model.yml
+- type: Conventions
+  url: conventions/curios-conventions.yml
+- type: Authentication
+  url: authentication/curios-authentication.yml
+- type: Conformance
+  url: conformance/curios-conformance.yml
+- type: Hosts
+  url: hosts/curios-hosts.yml
+- type: Vendors
+  url: vendors/curios-vendors.yml
+- type: TermsOfService
+  url: https://www.curios.com/legal/terms
+- type: Support
+  url: https://www.curios.com/support
+- type: PrivacyPolicy
+  url: https://www.curios.com/legal/privacy
+- type: Pricing
+  url: https://studio.curios.com/kb/pricing
+- type: GettingStarted
+  url: https://content.curios.com/docs/casper
+- type: Documentation
+  url: https://docs.curios.com/
+- type: DomainSecurity
+  url: security/curios-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.curios.com/
+
+apis:
+- aid: curios:curios-api
+  name: Curios API
+  description: 'Curios API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-10-12); not
+    the provider''s own document.'
+  humanURL: https://content.curios.com/docs/customers
+  baseURL: https://marketplace-api.curios.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/curios-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/curios-post-customers-request-schema.json
+  - type: JSONSchema
+    url: json-schema/curios-post-customers-customerid-request-schema.json
+  - type: JSONSchema
+    url: json-schema/curios-post-orders-orderid-request-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, or other machine-readable contract was found on the API host.
+  evidence:
+  - url: https://api.curios.com/openapi.json
+    status: 404
+  checked: '2026-10-12'
+x-enrichment:
+  date: '2026-10-12'
+  status: enriched
+  artifacts_added: 17
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

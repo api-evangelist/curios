@@ -1,0 +1,74 @@
+generated: '2026-10-12'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/curios-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: No MCP server was found. The pre-flight posted tools/list to /mcp on api.curios.com, www.curios.com, content.curios.com, studio.curios.com;
+  verdict absent. Candidate tools below are derived from the 12 operation(s) in the provider's own OpenAPI (12 listed); they describe what a server
+  WOULD expose, not one that exists.
+tools:
+- name: get_collections
+  operationId: get_collections
+  method: GET
+  path: /collections
+  description: GET /collections
+- name: get_contracts
+  operationId: get_contracts
+  method: GET
+  path: /contracts
+  description: GET /contracts
+- name: post_contracts_contractid
+  operationId: post_contracts_contractid
+  method: POST
+  path: /contracts/{contractid}
+  description: POST /contracts/approve
+- name: post_customers
+  operationId: post_customers
+  method: POST
+  path: /customers
+  description: POST /customers
+- name: get_customers_customerid
+  operationId: get_customers_customerid
+  method: GET
+  path: /customers/{customerid}
+  description: GET /customers/collections
+- name: post_customers_customerid
+  operationId: post_customers_customerid
+  method: POST
+  path: /customers/{customerid}
+  description: POST /customers/login
+- name: get_listings
+  operationId: get_listings
+  method: GET
+  path: /listings
+  description: GET /listings
+- name: get_orders
+  operationId: get_orders
+  method: GET
+  path: /orders
+  description: GET /orders
+- name: post_orders_orderid
+  operationId: post_orders_orderid
+  method: POST
+  path: /orders/{orderid}
+  description: POST /orders/cartAddItem
+- name: get_projects
+  operationId: get_projects
+  method: GET
+  path: /projects
+  description: GET /projects
+- name: post_tokens_transfer
+  operationId: post_tokens_transfer
+  method: POST
+  path: /tokens/transfer
+  description: POST /tokens/transfer
+- name: get_tokens_tokenid
+  operationId: get_tokens_tokenid
+  method: GET
+  path: /tokens/{tokenid}
+  description: GET /tokens/list

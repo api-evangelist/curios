@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://content.curios.com/docs/casper
+sources:
+- https://content.curios.com/docs/casper
+- https://content.curios.com/docs/
+- https://content.curios.com/docs/admin
+- https://studio.curios.com/kb/guides/getting-started
+idempotency:
+  coverage: none
+  evidence: The documentation does not describe any idempotency key or mechanism.
+pagination:
+  style: absent
+  evidence: No pagination parameters or response fields are mentioned in the provided pages.
+authentication: Authentication uses an Authorization header with a Bearer JWT (see “Customer Authentication”), and requires the headers curios-api-key
+  and curios-date on every call.
+docs: https://content.curios.com/docs/casper

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/curios/main/json-schema/curios-post-customers-request-schema.json",
+  "title": "PostCustomersRequest",
+  "x-generated": "2026-10-12",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/curios-openapi-generated.yml#/components/schemas/PostCustomersRequest",
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "type": "string",
+      "description": "First name of the customer/user."
+    },
+    "last_name": {
+      "type": "string",
+      "description": "Last name of the customer/user."
+    },
+    "display_name": {
+      "type": "string",
+      "description": "display_name"
+    },
+    "email": {
+      "type": "string",
+      "description": "email"
+    },
+    "phone": {
+      "type": "string",
+      "description": "phone"
+    },
+    "is_subscribed": {
+      "type": "boolean",
+      "description": "is_subscribed"
+    },
+    "is_whitelisted": {
+      "type": "boolean",
+      "description": "is_whitelisted"
+    },
+    "avatar": {
+      "type": "string",
+      "description": "avatar"
+    }
+  }
+}

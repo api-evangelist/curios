@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "https://curios.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "curios": "https://curios.com/schema#",
+    "PostCustomersRequest": "curios:PostCustomersRequest",
+    "first_name": {
+      "@id": "curios:first_name",
+      "@type": "xsd:string"
+    },
+    "last_name": {
+      "@id": "curios:last_name",
+      "@type": "xsd:string"
+    },
+    "display_name": {
+      "@id": "curios:display_name",
+      "@type": "xsd:string"
+    },
+    "email": {
+      "@id": "curios:email",
+      "@type": "xsd:string"
+    },
+    "phone": {
+      "@id": "curios:phone",
+      "@type": "xsd:string"
+    },
+    "is_subscribed": {
+      "@id": "curios:is_subscribed",
+      "@type": "xsd:boolean"
+    },
+    "is_whitelisted": {
+      "@id": "curios:is_whitelisted",
+      "@type": "xsd:boolean"
+    },
+    "avatar": {
+      "@id": "curios:avatar",
+      "@type": "xsd:string"
+    },
+    "PostCustomersCustomeridRequest": "curios:PostCustomersCustomeridRequest",
+    "PostOrdersOrderidRequest": "curios:PostOrdersOrderidRequest"
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Curios API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Curios's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-12) from openapi/_ae-authored/curios-openapi-generated.yml.",
+  "dcterms:created": "2026-10-12",
+  "dcterms:source": [
+    "openapi/_ae-authored/curios-openapi-generated.yml"
+  ]
+}

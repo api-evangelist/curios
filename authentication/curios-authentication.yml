@@ -1,0 +1,29 @@
+generated: '2026-10-12'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://content.curios.com/docs/admin-tokens
+sources:
+- https://content.curios.com/docs/admin-tokens
+- https://content.curios.com/docs/casper
+- https://content.curios.com/docs/
+- https://content.curios.com/docs/admin
+description: Authentication methods for Curios APIs
+schemes:
+- type: apiKey
+  name: curios-api-key
+  evidence: '-H '' curios-api-key: {API Key} '''
+  location: header
+  header: curios-api-key
+- type: http-bearer
+  name: Bearer JWT
+  evidence: Authorization Bearer {JWT} The JWT session token issued upon succesful customer login and verification.
+  location: header
+  header: Authorization
+  how_to_obtain: Use customers/login and customers/verify endpoints to retrieve a JSON Web Token (JWT).
+- type: hmac
+  name: curios-signature
+  evidence: Every request must include a signature in the curios-signature header value.
+  location: header
+  header: curios-signature
+  how_to_obtain: Create signature using HMAC SHA256 with your API Secret as the encryption key.
+docs: https://content.curios.com/docs/admin-tokens

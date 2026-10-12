@@ -1,0 +1,32 @@
+generated: '2026-10-12'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://studio.curios.com/kb/pricing
+sources:
+- https://studio.curios.com/kb/pricing
+- https://studio.curios.com/kb/pricing/buyer-fees
+- https://studio.curios.com/kb/plans/trial
+- https://studio.curios.com/kb/plans/lite
+name: Curios pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Trial
+  price_text: $0 / month
+  price: 0
+  billing_period: monthly
+  description: Free plan with limited usage limits.
+- name: Lite
+  price_text: $9 / month or $90 / year
+  description: First paid tier with lower fees and higher limits.
+- name: Plus
+  price_text: $290 /yr
+  price: 290
+  billing_period: annual
+  description: Mid‑tier plan with advanced listings and deeper analytics.
+- name: Pro
+  price_text: $690 /yr
+  price: 690
+  billing_period: annual
+  description: Top tier plan with highest visibility and limits.
+docs: https://studio.curios.com/kb/pricing
