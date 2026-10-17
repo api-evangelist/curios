@@ -1,0 +1,24 @@
+{
+  "provider": "curios",
+  "sources": [
+    "_ae-authored/curios-openapi-generated.yml"
+  ],
+  "outputs": [
+    "curios-collections-api-openapi.yml",
+    "curios-contracts-api-openapi.yml",
+    "curios-customers-api-openapi.yml",
+    "curios-listings-api-openapi.yml",
+    "curios-orders-api-openapi.yml",
+    "curios-projects-api-openapi.yml",
+    "curios-tokens-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "curios-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+7 apis, 7 total)"
+  ],
+  "skipped": []
+}
