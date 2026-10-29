@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Curios is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Curios builds Web3, blockchain and AI technologies, offering a digital content marketplace for creators such as musicians, authors, comedians, and developers. The platform enables creators to sell directly to fans, retain 100% of revenue, and access audience data, while providing APIs for commerce, analytics, and integration. Curios also offers a mobile app and supports NFT and tokenized content, positioning itself as a creator‑first commerce solution.
+
+**Areas:** Company · Marketplace · Web3 · Creators
+
+## Curios on APIs.io
+
+Everything profiled for Curios is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/curios/](https://apis.io/providers/curios/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Curios Collections API](https://apis.io/apis/curios/curios-collections-api/) — The Collections API from Curios — 2 operation(s) for collections.
+- [Curios Contracts API](https://apis.io/apis/curios/curios-contracts-api/) — The Contracts API from Curios — 3 operation(s) for contracts.
+- [Curios Customers API](https://apis.io/apis/curios/curios-customers-api/) — The Customers API from Curios — 3 operation(s) for customers.
+- [Curios Listings API](https://apis.io/apis/curios/curios-listings-api/) — The Listings API from Curios — 2 operation(s) for listings.
+- [Curios Orders API](https://apis.io/apis/curios/curios-orders-api/) — The Orders API from Curios — 3 operation(s) for orders.
+- [Curios Projects API](https://apis.io/apis/curios/curios-projects-api/) — The Projects API from Curios — 2 operation(s) for projects.
+- [Curios Tokens API](https://apis.io/apis/curios/curios-tokens-api/) — The Tokens API from Curios — 2 operation(s) for tokens.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostCustomersCustomeridRequest](https://apis.io/schemas/curios/curios-post-customers-customerid-request/)
+- [PostCustomersRequest](https://apis.io/schemas/curios/curios-post-customers-request/)
+- [PostOrdersOrderidRequest](https://apis.io/schemas/curios/curios-post-orders-orderid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Curios Context](https://apis.io/jsonld/curios/curios-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Curios API Rules](https://apis.io/rules/curios/curios-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Curios Authentication](https://apis.io/security/curios/curios-authentication/)
+- [Curios Domain Security](https://apis.io/security/curios/curios-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Curios Plans Pricing](https://apis.io/plans/curios/curios-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.curios.com/)
+- [Documentation](https://docs.curios.com/)
+- [Getting started](https://content.curios.com/docs/casper)
+- [Pricing](https://studio.curios.com/kb/pricing)
+- [Support](https://www.curios.com/support)
+- [Terms of service](https://www.curios.com/legal/terms)
+- [Privacy policy](https://www.curios.com/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 34.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 21.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 63.2 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/curios/](https://apis.io/providers/curios/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Curios: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/curios/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
